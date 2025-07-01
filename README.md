@@ -1,6 +1,7 @@
 # Superhero App
 
 A responsive web application showcasing superhero profiles.
+My first web project from the FNBAppAcademy for 2025.
 
 ## Features
 
