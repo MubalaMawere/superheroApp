@@ -1,0 +1,85 @@
+
+  /* Prevents content from hiding behind fixed menu */
+body {
+  padding-top: 60px; /* Adjust based on menu height */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f3f6fb;
+  color: #333;
+  margin: 0;
+  padding: 40px 20px 20px; /* Adjusted to accommodate fixed menu */
+}
+
+  /* ===== MENU  ===== */
+#menu {
+  position: fixed; /* Makes menu stick to top */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensures menu stays on top of other content */
+  background-color: #333; /* Your existing style */
+  padding: 10px; /* Your existing style */
+  text-align: center; /* Your existing style */
+}
+
+  
+  #menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+  }
+  
+  #menu a:hover {
+    text-decoration:none;
+    color: #5d9cec;
+  }
+
+  .about-container {
+    max-width: 900px;
+    margin: auto;
+    padding: 30px;
+    background-color: #ffffff;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    border-bottom: 2px solid #5d9cec;
+    padding-bottom: 10px;
+  }
+  
+  .about-section {
+    margin-bottom: 30px;
+  }
+  
+  .about-section h2 {
+    font-size: 1.6rem;
+    color: #5d9cec;
+    margin-bottom: 10px;
+  }
+  
+  .about-section p {
+    line-height: 1.8;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 600px) {
+    .about-container {
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 2rem;
+    }
+  
+    .about-section h2 {
+      font-size: 1.3rem;
+    }
+  }
+  
